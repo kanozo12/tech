@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+ol, ul, li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head-nav {
+    position: relative;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    padding: 20px 20px;
+}
+
+.logo a {
+    display: block;
+    background: url("images/logo.png") center center no-repeat;
+    background-size: contain;
+    width: 177px;
+    height: 40px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list li {
+    padding: 0 30px 0 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-list li a {
+    color: black;
+}
+
+.sub-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex: 1;
+    line-height: 40px;
+    padding: 0 20px 0 20px;
+}
+
+.sub-icon > .icon {
+    padding: 8px;
+}
+
+.sub-icon i{
+    font-size: 20px;
+}
+
+.hero-banner {
+    height: 700px;
+    background-image: url("images/banner_img.jpg");
+    background-size: cover;
+    background-position: center center;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 1300px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.hero-banner h4 {
+    font-size: 20px;
+}
+
+.hero-banner h1 {
+    font-size: 50px;
+}
+
+.info-text {
+    padding-top: 50px;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+
+}
+
+.banner-content > .brand-box {
+    font-size: 22px;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: #2979ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #fff;
+}
+
+.sub-banner {
+    background-color: #fff;
+    padding: 30px 40px;
+    margin-top: -130px;
+    box-shadow: 0 0 20px #0000002e;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-banner .banner-header {
+    margin-right: -15px;
+    margin-left: 15px;
+    width: 100%;
+    height: 100px;
+}
+
+.sub-banner .banner-header > .why-row {
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid #E9E9E9;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.row-slider {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-slider .sub-banner-box {
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.sub-banner-box .banner-box-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-box-title h3 {
+    padding: 18px 0 0 20px;
+}
+
+.banner-box-title > i {
+    font-size: 40px;
+
+}
+
+.sub-banner-box .banner-box-content {
+    padding: 20px 0 20px 0;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slot-box {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.slot-img {
+    background-image: url("images/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.slot-box:last-child > .slot-img{
+    background-image: url("images/bg2.jpg")
+}
+
+.slot-box-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.slot-box-content >  h3 {
+    font-size: 30px;
+}
+
+.slot-box-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.had-hero {
+    height: 400px;
+    background-image: url("images/had_bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+}
