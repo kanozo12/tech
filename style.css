@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -86,11 +89,6 @@ a {
 
 .container {
     width: 1370px;
-    /* height: 450px; */
-    margin: 0 auto;
-}
-.inner {
-    width: 1300px;
     margin: 0 auto;
 }
 
@@ -143,7 +141,7 @@ a {
 .sub-banner {
     background-color: #fff;
     padding: 30px 40px;
-    margin-top: -130px;
+    margin-top: -90px;
     box-shadow: 0 0 20px #0000002e;
     position: relative;
     display: flex;
@@ -279,7 +277,7 @@ a {
 }
 
 .item-boxs {
-    margin: 100px 0 100px 0;
+    margin: 80px 0 80px 0;
 }
 
 .item-box {
@@ -534,33 +532,20 @@ a {
     height: 80px;
     border-bottom: 1px solid #333333;
 }
-
-.inner {
-    /* height: 100%; */
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    height: 100%;
-}
-
-.footer-inner-space {
-    width: 50%;
-    height: 100%;
-}
-
-.footer-inner-social {
-    width: 50%;
+.footer-social {
     height: 100%;
     /* padding: 20px 0; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-content: center;
     line-height: 80px;
+    font-family: 'Staatliches', cursive;
+    padding-right: 100px;
 }
 
-.footer-inner-social p {
+.footer-social p {
     padding-right: 20px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .social-icon a{
@@ -579,8 +564,34 @@ a {
     border-bottom: 1px solid #333333;
 }
 
+.footer-middle-menu {
+    padding: 50px 0 20px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.footer-column p{
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footer-column a{
+    color: #fff;
+}
+
+.footer-column > ul > li {
+    padding: 10px 0 10px 0;
+}
+
 .footer-end {
     background-color: #111111;
     height: 90px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 90px;
+    color: #444;
 }
 
