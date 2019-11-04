@@ -11,6 +11,7 @@ ol, ul, li {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 .head-nav {
@@ -86,6 +87,10 @@ a {
 .container {
     width: 1370px;
     /* height: 450px; */
+    margin: 0 auto;
+}
+.inner {
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -526,15 +531,56 @@ a {
 
 .footer-contact {
     background-color: #111111;
-    height: 300px;
+    height: 80px;
+    border-bottom: 1px solid #333333;
+}
+
+.inner {
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.footer-inner-space {
+    width: 50%;
+    height: 100%;
+}
+
+.footer-inner-social {
+    width: 50%;
+    height: 100%;
+    /* padding: 20px 0; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 80px;
+}
+
+.footer-inner-social p {
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.social-icon a{
+    margin-left: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.social-title {
+    padding-right: 20px;
 }
 
 .footer-link {
     background-color: #111111;
-    height: 300px;
+    height: 500px;
+    border-bottom: 1px solid #333333;
 }
 
 .footer-end {
     background-color: #111111;
-    height: 300px;
+    height: 90px;
 }
+
